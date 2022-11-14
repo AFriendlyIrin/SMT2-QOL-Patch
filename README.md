@@ -32,4 +32,4 @@ I would like to change all instances of "Jakyou", "Mesian", and demon races in d
 Additional improvements are possible, but involve complex graphical work that is far beyond my current level of competence. If you know how to do these, feel free to contribute or make a fork:
 * A variable width font protocol would help the text length issue. I have no idea how to do this.
 * Fix the unequip cursor.
-* I would like to changed from "Shin Megami Tensei" to "Return of the Goddess" or "Revelations" because it annoys me that even the official localization refuses to translate it. This would require adding a full alphabet of italic tiles, as currently only the letters for "SHIN MEGAMI TENSEI" exist in the tile data.
+* I would like to change the title from "Shin Megami Tensei" to "Return of the Goddess" or "Revelations" because it annoys me that even the official localization refuses to translate it. This would require adding a full alphabet of italic tiles, as currently only the letters for "SHIN MEGAMI TENSEI" exist in the tile data.
