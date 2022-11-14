@@ -1,0 +1,225 @@
+#BLOCK NAME:			Text 1 (stairs, stat names, save, terminal, demon intros, ailments, races, Rag's)
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$107241		//TABLE 1 START
+#POINTER TABLE STOP:	$10796D		//TEXT BANK CHANGE, REQUIRES PTR UPDATE
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$208000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 2 (story text) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$10796D
+#POINTER TABLE STOP:	$107CE8		//BANK CHANGE BOUNDARY
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$210000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 3 (story text cont.) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$107CE8
+#POINTER TABLE STOP:	$107D9C		//TABLE 1 END
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$218000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 3 (story text cont.) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$10FCA9		//TABLE 2 START	
+#POINTER TABLE STOP:	$10FCD6		//TABLE 2 END
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$218000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 4 (Casino) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$110000		//TABLE 3 START
+#POINTER TABLE STOP:	$11008A
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$218000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+//The message pointed to by $11008A (Baccarat rules) triggers an error, possibly due to a missing table entry.
+
+#BLOCK NAME:			Text 5 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$11008D
+#POINTER TABLE STOP:	$1101B3		//BANK CHANGE BOUNDARY
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$218000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 6 (Story text) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$1101B3
+#POINTER TABLE STOP:	$110462		//BANK CHANGE BOUNDARY
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$220000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 7 (Story cont.) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$110462
+#POINTER TABLE STOP:	$110746		//TABLE 3 END
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$228000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 8 (Appraiser, item & spell info, fortune teller) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$118000		//TABLE 4 START
+#POINTER TABLE STOP:	$118288		//BANK BOUNDARY
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$228000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 9 (Fortune Teller cont.) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$118288
+#POINTER TABLE STOP:	$118537		//BANK BOUNDARY
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$230000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 10 (Kongkai) 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$118537
+#POINTER TABLE STOP:	$1187C1		//TABLE 4 END
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$238000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 11
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$140000		//TABLE 5 START
+#POINTER TABLE STOP:	$140CC3		//BANK BOUNDARY
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$240000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 12 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$140CC3
+#POINTER TABLE STOP:	$141977		//BANK BOUNDARY	
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$248000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 13 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$141977
+#POINTER TABLE STOP:	$141C80		//TABLE 5 END
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$250000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 14 
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$174E65		//TABLE 6 START
+#POINTER TABLE STOP:	$174F88		//TABLE 6 END
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$250000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			Text 15
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$170000		//TABLE 7 START
+#POINTER TABLE STOP:	$170375		//TABLE 7 END
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS:			Yes
+#BASE POINTER:			$250000		//add to each pointer to get
+#TABLE:					smt2_16bit.tbl		//the string address
+#COMMENTS:				Yes
+#END BLOCK
