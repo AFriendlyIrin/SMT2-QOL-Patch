@@ -25,6 +25,25 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
   * "MESIA" to "CHURCH"
   * "GAIA" to "TEMPLE"
 * "CLOSE" status changed to "SEAL".
+* Demon "Depth" changed to "Drowned" to make it clearer they're the victims of the Great Flood (as explained in the artbook).
+
+## List of Changes - Experimental Version
+I've also included another patch marked "exp". This patch contains alternate translations for demon races that I feel are more accurate to the original Japanese. The official localizations are, frankly, pretty terrible, and garble a lot of information that helps you understand how the different races are related to one another.
+
+The races changed are:
+|&nbsp; |&nbsp; |&nbsp;
+|--- |--- |---
+|Herald → Archangel |Avian → Sacred Bird |Megami → Goddess   
+|Fiend → Demon      |Avatar → Beast God  |Element → Elemental
+|Dragon → Dragon God|Lady → Mother       |Divine → Angel     
+|Snake → Dragon     |Night → Nightmare   |Jirae → Earth Spirit
+|Femme → Fatale     |Vile → Devil        |Wilder → Predator
+|Wood → Plant       |Tyrant → Lord       |Drake → Wyrm
+|Haunt → Undying    |Spirit → Ghost      |Foul → Abomination
+
+Yes, this means the Angel demon is now "Angel Angel", and the Archangel demon is not of the Archangel race. It was like that in the original Japanese too. Embrace the absurdity. However, I did make one concession: The Nightmare demon is changed to "Marra" (the Old English name for the same creature) so it's not "Nightmare Nightmare".
+
+Currently these changes can only be seen in the Devil Analyze menu, not in-battle. Because the new race names take up more space than the originals, all other text has to be shifted to make space; I can do this for the smaller text bank where menu data is stored, but the main text bank where the in-battle messages are stored is too big for Atlas to modify without creating errors. I'm looking into the issue.
 
 ## Areas of Improvement
 I would like to change all instances of "Jakyou", "Mesian", and demon races in dialogue, but this will be difficult until the bank change bug in Atlas is fixed.
