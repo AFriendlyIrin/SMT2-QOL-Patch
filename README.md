@@ -24,6 +24,7 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
   * "JAKYOU" to "FUSION"
   * "MESIA" to "CHURCH"
   * "GAIA" to "TEMPLE"
+  * "JUNKS" to "SUPPLIES"
 * "CLOSE" status changed to "SEAL".
 * Demon "Depth" changed to "Drowned" to make it clearer they're the victims of the Great Flood (as explained in the artbook).
 
