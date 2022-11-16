@@ -19,7 +19,6 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
   * Skill name length limit increased to 11 characters.
 * The HP/MP display in the status select menu has been moved a bit to the right, allowing for 2 extra characters of name space.
 * String length limit on the equipment screen increased to 11 characters. Equipment slot images moved slightly to allow this.
-  * KNOWN ISSUE: The cursor for the unequip screen is a bit too wide. I have no idea how sprites are drawn, so I can't fix this.
 * Where possible, all skill and item names have been shortened to fit within a 10-character limit. Breathe in that SNES nostalgia of deciphering jumbles of consonants.
 * Certain location headers changed:
   * "JAKYOU" to "FUSION"
@@ -29,7 +28,10 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 * "CLOSE" status changed to "SEAL".
 * Demon "Depth" changed to "Drowned" to make it clearer they're the victims of the Great Flood (as explained in the artbook).
 
-KNOWN ISSUE: Demon names in the party GUI will sometimes run out of bounds. This can't be fixed easily, as the max length variable is shared between all menu entries; reducing it would also truncate item and skill names.
+### Known Issues
+* Demon names in the party GUI will sometimes run out of bounds. This can't be fixed easily, as the max length variable is shared between all menu entries; reducing it would also truncate item and skill names.
+* The cursor for the unequip screen is a bit too wide. I have no idea how sprites are drawn, so I can't fix this.
+* There may be some glitches when the game attempts to load text located right at the boundary of certain databases (e.g. demon names vs. skill names vs. bar NPC names), as these boundaries are hardcoded in the printing code and not automatically updated to reflect changed text addresses. I've tried to stay on top of this, but I can't guarantee I've found them all.
 
 ## List of Changes - Experimental Version
 I've also included another patch marked "exp". This patch contains alternate translations for demon races that I feel are more accurate to the original Japanese. The official localizations are, frankly, pretty terrible, and garble a lot of information that helps you understand how the different races are related to one another.
