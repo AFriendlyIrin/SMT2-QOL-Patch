@@ -37,15 +37,14 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 I've also included another patch marked "exp". This patch contains alternate translations for demon races that I feel are more accurate to the original Japanese. The official localizations are, frankly, pretty terrible, and garble a lot of information that helps you understand how the different races are related to one another.
 
 The races changed are:
-|&nbsp; |&nbsp; |&nbsp;
-|--- |--- |---
-|Herald → Archangel |Avian → Sacred Bird |Megami → Goddess   
-|Fiend → Demon      |Avatar → Beast God  |Element → Elemental
-|Dragon → Dragon God|Lady → Mother       |Divine → Angel     
-|Snake → Dragon     |Night → Nightmare   |Jirae → Earth Spirit
-|Femme → Fatale     |Vile → Devil        |Wilder → Predator
-|Wood → Plant       |Tyrant → Lord       |Drake → Wyrm
-|Haunt → Undying    |Spirit → Ghost      |Foul → Abomination
+|&nbsp; |&nbsp; |&nbsp; |&nbsp;
+|--- |--- |--- |---
+|Herald → Archangel  |Avian → Sacred Bird |Megami → Goddess    |Fiend → Demon       
+|Avatar → Beast God  |Holy → Sacred Beast |Dragon → Dragon God |Element → Elemental
+|Lady → Mother       |Divine → Angel      |Snake → Dragon      |Night → Nightmare   
+|Jirae → Earth Spirit|Femme → Fatale      |Vile → Devil        |Wilder → Predator
+|Wood → Plant        |Tyrant → Lord       |Drake → Wyrm        |Haunt → Undying     
+|Spirit → Ghost      |Foul → Abomination
 
 Yes, this means the Angel demon is now "Angel Angel", and the Archangel demon is not of the Archangel race. It was like that in the original Japanese too. Embrace the absurdity. However, I did make one concession: The Nightmare demon is changed to "Marra" (the Old English name for the same creature) so it's not "Nightmare Nightmare".
 
