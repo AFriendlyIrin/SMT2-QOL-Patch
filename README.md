@@ -9,8 +9,8 @@ To use, apply the IPS patch to a Shin Megami Tensei 2 ROM. (For legal reasons, R
 Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 
 ## List of Changes
-* All demon races, spell names, and item names changed to official localizations where possible. Additionally, translated demon races left untranslated by official localizations (yes I know these are rough translations, but I had to stick to one word here):
-  * "Jirae" to "Natural"
+* All demons, demon races, spell names, and item names changed to official localizations where possible. Additionally, translated demon races left untranslated by official localizations (yes I know these are rough translations, but I had to stick to one word here):
+  * "Jirae" to "Dwarf"
   * "Youma" to "Mystic"
   * "Jaki" to "Monster"
 * Improvements to demon status screen:
@@ -24,7 +24,7 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
   * "JAKYOU" to "FUSION"
   * "MESIA" to "CHURCH"
   * "GAIA" to "TEMPLE"
-  * "JUNKS" to "SUPPLIES"
+  * "JUNKS" to "ITEMS"
 * "CLOSE" status changed to "SEAL".
 * Demon "Depth" changed to "Drowned" to make it clearer they're the victims of the Great Flood (as explained in the artbook).
 
@@ -37,14 +37,15 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 I've also included another patch marked "exp". This patch contains alternate translations for demon races that I feel are more accurate to the original Japanese. The official localizations are, frankly, pretty terrible, and garble a lot of information that helps you understand how the different races are related to one another.
 
 The races changed are:
-|&nbsp; |&nbsp; |&nbsp; |&nbsp;
-|--- |--- |--- |---
-|Herald → Archangel  |Avian → Sacred Bird |Megami → Goddess    |Fiend → Demon       
-|Avatar → Beast God  |Holy → Sacred Beast |Dragon → Dragon God |Element → Elemental
-|Lady → Mother       |Divine → Angel      |Snake → Dragon      |Night → Nightmare   
-|Jirae → Earth Spirit|Femme → Fatale      |Vile → Devil        |Wilder → Predator
-|Wood → Plant        |Tyrant → Lord       |Drake → Wyrm        |Haunt → Undying     
-|Spirit → Ghost      |Foul → Abomination
+|&nbsp; |&nbsp; |&nbsp;
+|--- |--- |---
+|Herald → Archangel  |Avian → Sacred Bird |Megami → Goddess           
+|Avatar → Beast God  |Holy → Sacred Beast |Dragon → Dragon God 
+|Lady → Mother       |Divine → Angel      |Snake → Dragon      
+|Night → Nightmare   |Element → Elemental |Fiend → Demon
+|Femme → Fatale      |Vile → Devil        |Wilder → Predator
+|Wood → Plant        |Tyrant → Lord       |Drake → Wyrm             
+|Spirit → Ghost      |Haunt → Undying     |Foul → Abomination
 
 Yes, this means the Angel demon is now "Angel Angel", and the Archangel demon is not of the Archangel race. It was like that in the original Japanese too. Embrace the absurdity. However, I did make one concession: The Nightmare demon is changed to "Marra" (the Old English name for the same creature) so it's not "Nightmare Nightmare".
 
