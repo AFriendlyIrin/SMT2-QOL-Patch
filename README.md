@@ -26,7 +26,14 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
   * "GAIA" to "TEMPLE"
   * "JUNKS" to "ITEMS"
 * "CLOSE" status changed to "SEAL".
+* "EXTRA" battle command changed to "SKILL".
 * Demon "Depth" changed to "Drowned" to make it clearer they're the victims of the Great Flood (as explained in the artbook).
+* Fixed the text glitch that occurred when using Analyze Spell.
+* Shortened some item/spell info text:
+** "All enemies" to "All"
+** "Fusion Sword" to "Fus. Sword"
+** "Electricity" to "Electric"
+* Changed "wait for input" commands in several battle messages to auto-newline commands instead to make battles go faster. (Also did the same for Puck's spiel during the chase sequence because dear god that got annoying.)
 
 ### Known Issues
 * Demon names in the party GUI will sometimes run out of bounds. This can't be fixed easily, as the max length variable is shared between all menu entries; reducing it would also truncate item and skill names.
@@ -58,3 +65,4 @@ Additional improvements are possible, but involve complex graphical work that is
 * A variable width font protocol would help the text length issue. I have no idea how to do this.
 * Fix the unequip cursor.
 * I would like to change the title from "Shin Megami Tensei" to "Return of the Goddess" or "Revelations" because it annoys me that even the official localization refuses to translate it. This would require adding a full alphabet of italic tiles, as currently only the letters for "SHIN MEGAMI TENSEI" exist in the tile data.
+* It is technically possible to increase the size of the message box when displaying spell/item info, but doing so currently causes it to glitch out and load garbage tiles in the expanded area. If this could be fixed, info boxes could be expanded to include an additional line, which would be really helpful.
