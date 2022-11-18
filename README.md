@@ -30,9 +30,9 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 * Demon "Depth" changed to "Drowned" to make it clearer they're the victims of the Great Flood (as explained in the artbook).
 * Fixed the text glitch that occurred when using Analyze Spell.
 * Shortened some item/spell info text:
-** "All enemies" to "All"
-** "Fusion Sword" to "Fus. Sword"
-** "Electricity" to "Electric"
+ * "All enemies" to "All"
+ * "Fusion Sword" to "Fus. Sword"
+ * "Electricity" to "Electric"
 * Changed "wait for input" commands in several battle messages to auto-newline commands instead to make battles go faster. (Also did the same for Puck's spiel during the chase sequence because dear god that got annoying.)
 
 ### Known Issues
