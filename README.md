@@ -26,6 +26,7 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
   * "GAIA" to "TEMPLE"
   * "JUNKS" to "ITEMS"
 * "CLOSE" status changed to "SEAL".
+* "GOOD" status changed to "NORMAL".
 * "EXTRA" battle command changed to "SKILL".
 * Demon "Depth" changed to "Drowned" to make it clearer they're the victims of the Great Flood (as explained in the artbook).
 * Fixed the text glitch that occurred when using Analyze Spell.
@@ -39,6 +40,7 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 * Demon names in the party GUI will sometimes run out of bounds. This can't be fixed easily, as the max length variable is shared between all menu entries; reducing it would also truncate item and skill names.
 * The cursor for the unequip screen is a bit too wide. I have no idea how sprites are drawn, so I can't fix this.
 * There may be some glitches when the game attempts to load text located right at the boundary of certain databases (e.g. demon names vs. skill names vs. bar NPC names), as these boundaries are hardcoded in the printing code and not automatically updated to reflect changed text addresses. I've tried to stay on top of this, but I can't guarantee I've found them all.
+* I can't find the text to change the "Trade: Seirei" option at Rag's.
 
 ## List of Changes - Experimental Version
 I've also included another patch marked "exp". This patch contains alternate translations for demon races that I feel are more accurate to the original Japanese. The official localizations are, frankly, pretty terrible, and garble a lot of information that helps you understand how the different races are related to one another.
