@@ -43,22 +43,7 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 * There may be some glitches when the game attempts to load text located right at the boundary of certain databases (e.g. demon names vs. skill names vs. bar NPC names), as these boundaries are hardcoded in the printing code and not automatically updated to reflect changed text addresses. I've tried to stay on top of this, but I can't guarantee I've found them all.
 
 ## List of Changes - Experimental Version
-I've also included another patch marked "exp". This patch contains alternate translations for demon races that I feel are more accurate to the original Japanese. The official localizations are, frankly, pretty terrible, and garble a lot of information that helps you understand how the different races are related to one another.
-
-The races changed are:
-|&nbsp; |&nbsp; |&nbsp;
-|--- |--- |---
-|Godly → God         |Herald → Archangel  |Avian → Sacred Bird           
-|Avatar → Beast God  |Holy → Sacred Beast |Dragon → Dragon God 
-|Lady → Mother       |Divine → Angel      |Snake → Dragon      
-|Night → Nightmare   |Fiend → Demon       |Megami → Goddess
-|Femme → Fatale      |Vile → Devil        |Wilder → Predator
-|Wood → Plant        |Tyrant → Demon Lord |Drake → Wyrm             
-|Spirit → Ghost      |Haunt → Undying     |Foul → Anathema
-
-Yes, this means the Angel demon is now "Angel Angel", and the Archangel demon is not of the Archangel race. It was like that in the original Japanese too. Embrace the absurdity. However, I did make one concession: The Nightmare demon is changed to "Marra" (the Old English name for the same creature) so it's not "Nightmare Nightmare".
-
-The encounter message for Jack the Ripper will spill over to a second line with this patch. I have not tested it with other demons, but they should be fine as the ones with the greatest length differences (Sacred Bird, Beast God, Sacred Beast, and Dragon God) can't be encountered in the wild. Demon Lord may also cause problems, but I haven't tested this since I don't have save states just before their fights.
+I've also included another patch marked "exp". This patch contains alternate translations for demon races that I feel are more accurate to the original Japanese. For details on these changes, go see [here](https://github.com/AFriendlyIrin/SMT-text-editing).
 
 This patch alters the pointers for in-message and in-menu demon races so that they both point to the same text. Testing showed no problems, but just a heads-up that if something goes wrong that might be the culprit.
 
