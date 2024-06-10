@@ -42,6 +42,7 @@ Patch with Lunar IPS: https://www.romhacking.net/utilities/240/
 * Changed "wait for input" commands in several battle messages to auto-newline commands instead to make battles go faster. (Also did the same for Puck's spiel during the chase sequence because dear god that got annoying.)
 * Removed hardcoded instances of "Maou" and "Yousei" in dialogue messages. (This was a bit tricky because I had to edit it manually, so the plural of "Yousei" is changed to "Fey" instead of "Fairies" since the latter is too long. Empty spaces were added to maintain parity, but they were all added to line ends so should not be noticeable.)
   * "Chirei" could not be changed to "Dwarves" due to length limits, but was changed to "Jirae" for consistency with later localizations.
+* Stat reductions from equipment are now highlighted in bright red instead of a nearly-invisible gray.
 
 ### Known Issues
 * Demon names in the party GUI will sometimes run out of bounds. This can't be fixed easily, as the max length variable is shared between all menu entries; reducing it would also truncate item and skill names.
